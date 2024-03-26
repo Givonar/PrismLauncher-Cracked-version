@@ -7,5 +7,5 @@
 </p>
 
 <p align="center">
-  This is not the original PrismLauncher and it is a <b>CRACKED</b> version.
+  This is not the original PrismLauncher. it is a <b>CRACKED</b> version.
 </p>
