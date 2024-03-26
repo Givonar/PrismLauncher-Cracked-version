@@ -7,5 +7,5 @@
 </p>
 
 <p align="center">
-  this project is not orginal prismluncher its just a fork.
+  This is not the original PrismLauncher and it is a <b>CRACKED</b> version.
 </p>
