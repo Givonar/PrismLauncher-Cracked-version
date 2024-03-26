@@ -31,7 +31,7 @@ Example (NixOS):
 
 ### Using the overlay
 
-After adding `github:PrismLauncher/PrismLauncher` to your flake inputs, you can add the `default` overlay to your nixpkgs instance.
+After adding `github:karkit7117/PrismLauncher-Cracked-version` to your flake inputs, you can add the `default` overlay to your nixpkgs instance.
 
 Example:
 
@@ -40,7 +40,7 @@ Example:
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     prismlauncher = {
-      url = "github:PrismLauncher/PrismLauncher";
+      url = "github:karkit7117/PrismLauncher-Cracked-version";
       # Optional: Override the nixpkgs input of prismlauncher to use the same revision as the rest of your flake
       # Note that overriding any input of prismlauncher may break reproducibility
       # inputs.nixpkgs.follows = "nixpkgs";
@@ -75,7 +75,7 @@ Example:
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     prismlauncher = {
-      url = "github:PrismLauncher/PrismLauncher";
+      url = "github:karkit7117/PrismLauncher-Cracked-version";
       # Optional: Override the nixpkgs input of prismlauncher to use the same revision as the rest of your flake
       # Note that overriding any input of prismlauncher may break reproducibility
       # inputs.nixpkgs.follows = "nixpkgs";
@@ -103,11 +103,11 @@ You can simply call the default package of this flake.
 Example:
 
 ```shell
-nix run github:PrismLauncher/PrismLauncher
+nix run github:karkit7117/PrismLauncher-Cracked-version
 
-nix shell github:PrismLauncher/PrismLauncher
+nix shell github:karkit7117/PrismLauncher-Cracked-version
 
-nix profile install github:PrismLauncher/PrismLauncher
+nix profile install github:karkit7117/PrismLauncher-Cracked-version
 ```
 
 ## Installing a development release (without flakes)
@@ -140,7 +140,7 @@ Example:
 
 ```nix
 {pkgs, ...}: {
-  nixpkgs.overlays = [(import (builtins.fetchTarball "https://github.com/PrismLauncher/PrismLauncher/archive/develop.tar.gz")).overlays.default];
+  nixpkgs.overlays = [(import (builtins.fetchTarball "https://github.com/karkit7117/PrismLauncher-Cracked-version/archive/develop.tar.gz")).overlays.default];
 
   environment.systemPackages = [pkgs.prismlauncher];
 }
@@ -155,7 +155,7 @@ Example:
 
 ```nix
 {pkgs, ...}: {
-  environment.systemPackages = [(import (builtins.fetchTarball "https://github.com/PrismLauncher/PrismLauncher/archive/develop.tar.gz")).packages.${pkgs.system}.prismlauncher];
+  environment.systemPackages = [(import (builtins.fetchTarball "https://github.com/karkit7117/PrismLauncher-Cracked-version/archive/develop.tar.gz")).packages.${pkgs.system}.prismlauncher];
 }
 ```
 
@@ -166,7 +166,7 @@ You can add this repository as a channel and install its packages that way.
 Example:
 
 ```shell
-nix-channel --add https://github.com/PrismLauncher/PrismLauncher/archive/develop.tar.gz prismlauncher
+nix-channel --add https://github.com/karkit7117/PrismLauncher-Cracked-version/archive/develop.tar.gz prismlauncher
 
 nix-channel --update prismlauncher
 
