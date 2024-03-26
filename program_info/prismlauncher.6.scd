@@ -69,11 +69,11 @@ variables, besides other common Qt variables:
 
 # BUGS
 
-https://github.com/PrismLauncher/PrismLauncher/issues
+https://github.com/karkit7117/PrismLauncher-Cracked-version/issues
 
 # RESOURCES
 
-GitHub: https://github.com/PrismLauncher/PrismLauncher
+GitHub: https://github.com/karkit7117/PrismLauncher-Cracked-version
 
 Main website: https://prismlauncher.org
 
